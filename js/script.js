@@ -13,7 +13,7 @@ let words = '';
 	currentTxt = txtElement[count];
 
 	words = currentTxt.slice(0, ++txtIndex);
-	document.querySelector('.efek-ngetik').textContent = words;
+	document.querySelector('efek-ngetik').textContent = words;
 
 	if(words.length == currentTxt.length){
 		count++;
